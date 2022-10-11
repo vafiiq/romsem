@@ -1,0 +1,43 @@
+.nav{
+  position: absolute;
+  top: 32px;
+  left: 100px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+ &__line{
+  position: absolute;
+  top: 150px;
+  width: 180px;
+ }
+ &__logo{
+  text-align: center;
+  align-items: center;
+  margin-left: 25px;
+ }
+  &__ul{
+    width: 180px;
+    position: absolute;
+    top: 170px;
+    left: 25px;
+    &__li{
+      list-style-type: none;
+      align-items: center;
+      &--logo{
+        margin-top: 30px;
+        margin-right: 25px;
+      }
+      &--link{
+        text-decoration: none;
+        font-size: 24px;
+        color: black;
+        &:hover{
+          color: #FF9846;
+        }
+        
+        
+      }
+    }
+  }
+}
