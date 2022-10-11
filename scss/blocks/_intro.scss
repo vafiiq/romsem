@@ -1,16 +1,17 @@
 .intro {
     position: absolute;
     background-color: #f2f2f2;
-    width: 1170px;
-    
+    width: 1200px;
+
 
     &__photo {
         position: absolute;
         left: 320px;
         background-color: #f2f2f2;
-        padding: 124px 110px 50px 110px;
+        padding: 124px 160px 50px 110px;
     }
-    &__categories{
+
+    &__categories {
         position: absolute;
         top: 644px;
         left: 320px;
@@ -19,15 +20,24 @@
         background-color: #f2f2f2;
         display: flex;
         flex-wrap: wrap;
-        &__box{
+
+        &__box {
             display: flex;
             flex-direction: row;
             padding-right: 25px;
             padding-bottom: 25px;
-            &__title{
-                z-index: 9;
+
+            &__title {
+                position: absolute;
+                color: white;
+                padding-top: 160px;
+                padding-left: 20px;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 29.78px;
             }
-            &--item{
+
+            &--item {
                 display: flex;
                 flex-direction: row;
             }

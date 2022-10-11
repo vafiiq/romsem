@@ -414,13 +414,13 @@ main {
 .intro {
   position: absolute;
   background-color: #f2f2f2;
-  width: 1170px;
+  width: 1200px;
 }
 .intro__photo {
   position: absolute;
   left: 320px;
   background-color: #f2f2f2;
-  padding: 124px 110px 50px 110px;
+  padding: 124px 160px 50px 110px;
 }
 .intro__categories {
   position: absolute;
@@ -439,7 +439,13 @@ main {
   padding-bottom: 25px;
 }
 .intro__categories__box__title {
-  z-index: 9;
+  position: absolute;
+  color: white;
+  padding-top: 160px;
+  padding-left: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.78px;
 }
 .intro__categories__box--item {
   display: flex;
