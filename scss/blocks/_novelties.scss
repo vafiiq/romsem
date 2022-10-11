@@ -1,0 +1,36 @@
+.novelties {
+    position: relative;
+    width: 1200px;
+    left: 320px;
+&__titles{
+    position: relative;
+    display: flex;
+    left: 115px;
+    bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.78px;
+    &__on{
+        color: #000;
+    }
+    &__off{
+        margin-left: 30px;
+        text-decoration: underline;
+        color: #A4ACAD;
+    }
+}
+    &__components {
+        display: flex;
+        flex-direction: row;
+        padding-left: 76px;
+
+        &__card {
+            margin-left: 41px;
+            background-color: #fff;
+
+            &__img {
+                padding: 1px 17px;
+            }
+        }
+    }
+}

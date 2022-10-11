@@ -1,23 +1,16 @@
 .intro {
-    position: absolute;
-    background-color: #f2f2f2;
+    position: relative;
+    left: 320px;
     width: 1200px;
 
 
     &__photo {
-        position: absolute;
-        left: 320px;
-        background-color: #f2f2f2;
         padding: 124px 160px 50px 110px;
     }
 
     &__categories {
-        position: absolute;
-        top: 644px;
-        left: 320px;
         width: 1200px;
         padding: 1px 110px 50px 110px;
-        background-color: #f2f2f2;
         display: flex;
         flex-wrap: wrap;
 
