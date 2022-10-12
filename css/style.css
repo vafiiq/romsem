@@ -311,6 +311,7 @@ template {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .visually-hidden {
@@ -433,6 +434,30 @@ header {
 .novelties__components__card__img {
   padding: 1px 17px;
 }
+.novelties__components__card__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.75px;
+  margin-left: 17px;
+  width: 180px;
+  margin-top: 15px;
+  height: 60px;
+}
+.novelties__components__card__details {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22.32px;
+  color: #A4ACAD;
+  margin-left: 17px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.novelties__components__card__price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.05px;
+  margin-left: 17px;
+}
 
 main {
   position: relative;
@@ -455,7 +480,7 @@ main {
   width: 1200px;
 }
 .intro__photo {
-  padding: 124px 160px 50px 110px;
+  margin: 124px 0px 50px 110px;
 }
 .intro__categories {
   width: 1200px;
